@@ -14,6 +14,15 @@ knitr:
     fig.path: include/fig/
 ---
 
+---
+
+```{r}
+#| label: fig-qr-code-talk
+#| fig-cap: "https://penn-state-open-science.github.io/machine-actionable-dmsp-2024-10-01"
+code <- qrcode::qr_code("https://penn-state-open-science.github.io/machine-actionable-dmsp-2024-10-01")
+plot(code)
+```
+
 ## Charge
 
 >...understand[ing] current and future research data storage requirements and
@@ -21,7 +30,7 @@ develop a recommendation that aligns with University strategy, accounts for sust
 
 ## Lifecycle {.scrollable}
 
-![](include/img/lifecycle.png){.lightbox width="50%"}
+![Madden 2017](include/img/lifecycle.png){.lightbox}
 
 ## Storage types
 
@@ -31,23 +40,37 @@ develop a recommendation that aligns with University strategy, accounts for sust
 
 ![](include/img/psu-storage-offerings.png)
 
-## (Draft) Recommendations {.scrollable}
+## (Draft) Recommendations
 
->- University-wide data governance should be implemented in coordination with related efforts currently under way such as IT Optimized Service Team (OST), the Research Support Transformation Project (RSTP), and Office of Planning, Assessment, and Institutional Research (OPAIR) data governance.
+1. University-wide data governance should be implemented in coordination with related efforts currently under way such as IT Optimized Service Team (OST), the Research Support Transformation Project (RSTP), and Office of Planning, Assessment, and Institutional Research (OPAIR) data governance.
 
->- The Research Data Stewardship Program (RDSP) should be enhanced with additional responsibilities from those originally outlined in the Research Data Stewardship Program Summary document and provided with additional resources commensurate with meeting those responsibilities. 
+---
 
->- An Institutional Research Data Support Model should be established that accounts for the entire research data life cycle.
+2. The Research Data Stewardship Program (RDSP) should be enhanced with additional responsibilities from those originally outlined in the Research Data Stewardship Program Summary document and provided with additional resources commensurate with meeting those responsibilities. 
 
->- Solutions to address gaps in data storage and sharing options, including long-term data storage, should be implemented.
+---
 
->- **Every research project should have a data management and sharing plan. Templates and documentation should be made available to support the creation of these plans.**
+3. An Institutional Research Data Support Model should be established that accounts for the entire research data life cycle.
 
->- **All proposals should include as direct costs (not F&A) the cost of data curation and storage based on published rates and a long-term preservation window of ten to fifteen years**.
+---
 
->- Cyberinfrastructure provided as a common good service should be available to research groups on an incentive basis.
+4. Solutions to address gaps in data storage and sharing options, including long-term data storage, should be implemented.
 
->- Managers of University storage offerings should explore ways to use new and existing technologies and tools to support researcher obligations around research data. 
+---
+
+5. **Every research project should have a data management and sharing plan. Templates and documentation should be made available to support the creation of these plans.**
+
+---
+
+6. **All proposals should include as direct costs (not F&A) the cost of data curation and storage based on published rates and a long-term preservation window of ten to fifteen years**.
+
+---
+
+7. Cyberinfrastructure provided as a common good service should be available to research groups on an incentive basis.
+
+---
+
+8. Managers of University storage offerings should explore ways to use new and existing technologies and tools to support researcher obligations around research data. 
 
 ## Open Science Initiative
 
@@ -58,5 +81,56 @@ develop a recommendation that aligns with University strategy, accounts for sust
 
 ![Data management [workshop 2024](https://penn-state-open-science.github.io/data-mgmt-2024/)](https://teacherhead.com/wp-content/uploads/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg){width="60%" .lightbox}
 
-![[Speaker](https://penn-state-open-science.github.io/bootcamp-2023/presentation-topics.html#keynote) series](include/img/errington-bootcamp-2023.jpg){width="60%" .lightbox}
+![[Speaker](https://penn-state-open-science.github.io/bootcamp-2023/presentation-topics.html#keynote) series](include/img/errington-bootcamp-2023.jpg){width="50%" .lightbox}
 :::
+
+---
+
+:::: {.columns}
+::: {.column width="25%"}
+
+Ana Enriquez</br>
+Libraries</br>
+aee32@psu.edu</br></br>
+
+Rick Gilmore</br>
+Psychology</br>
+rog1@psu.edu</br></br>
+
+Frank Hillary</br>
+Psychology</br>
+fgh3@psu.edu
+
+:::
+::: {.column width="50%"}
+```{r}
+#| label: fig-qr-code
+#| fig-cap: "https://penn-state-open-science.github.io/outreach-talk"
+code <- qrcode::qr_code("https://penn-state-open-science.github.io/outreach-talk")
+plot(code)
+```
+
+```{r}
+#| label: fig-qr-code-gh
+#| fig-cap: "https://github.com/penn-state-open-science"
+code <- qrcode::qr_code("https://github.com/penn-state-open-science")
+plot(code)
+```
+:::
+::: {.column width="25%"}
+
+Nicole Lazar</br>
+Statistics</br>
+nfl5182@psu.edu</br></br>
+
+Alaina Pearce</br>
+Nutrition</br>
+azp271@psu.edu</br></br>
+
+Briana Wham</br>
+Libraries</br>
+bde125@psu.edu
+
+:::
+::::
+
