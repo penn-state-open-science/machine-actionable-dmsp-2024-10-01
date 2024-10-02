@@ -4,7 +4,7 @@ subtitle: "Do you know...where it's going to?"
 author: Rick Gilmore
 format: 
   revealjs:
-    footer: "PSU MADMSP Workshop"
+    footer: "PSU maDM(S)P Workshop"
     slide-number: true
     fig-align: center
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
