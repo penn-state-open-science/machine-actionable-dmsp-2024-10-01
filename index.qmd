@@ -4,11 +4,12 @@ subtitle: "Do you know...where it's going to?"
 author: Rick Gilmore
 format: 
   revealjs:
-    # footer: "Machine-Actionable DMSP Workshop"
+    footer: "PSU MADMSP Workshop"
     slide-number: true
     fig-align: center
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
     css: include/css/styles.css
+    multiplex: true
 knitr:
   opts_chunk:
     fig.path: include/fig/
@@ -22,6 +23,10 @@ knitr:
 code <- qrcode::qr_code("https://penn-state-open-science.github.io/machine-actionable-dmsp-2024-10-01")
 plot(code)
 ```
+
+## It takes a village, but...
+
+![Doug Dodson](https://www.research.psu.edu/sites/default/files/styles/staff_directory_pages/public/Doug%20Dodson%20Headshot.jpg?itok=7uLLHx1q){width="50%"}
 
 ## Charge
 
