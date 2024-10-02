@@ -77,7 +77,7 @@ develop a recommendation that aligns with University strategy, accounts for sust
 
 8. Managers of University storage offerings should explore ways to use new and existing technologies and tools to support researcher obligations around research data. 
 
-## Open Science Initiative
+## Open Scholarship Initiative
 
 ::: {layout="[[1,1], [1,1]]"}
 ![Open Science [Bootcamp 2023](https://penn-state-open-science.github.io/bootcamp-2023/)](https://penn-state-open-science.github.io/bootcamp-2023/include/img/make-word-cloud-1.png){width="60%" .lightbox}
